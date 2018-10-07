@@ -1461,7 +1461,10 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   height: 49px;
 }
 .header-menu {
-  background: rgb(64, 66, 76);
+  background: white;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);
 }
 .fixed-top {
   -webkit-backface-visibility: hidden;

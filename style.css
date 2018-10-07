@@ -52,7 +52,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover,
 .poster-carousel-trending .poster-prev:hover,
 .poster-carousel-trending .poster-next:hover,
 .mt-review a:hover {
-  background: #0271dd;
+  background: #ff6c00;
   color: #fff
 }
 .mt-theme-text,
@@ -1084,7 +1084,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   top: 70%;
   position: absolute;
   z-index: -1;
-  background: #ff6c00;
+  background: #0271dd;
 }
 .sf-menu > li.current_page_item > a::before,
 .sf-menu > li.current_page_parent > a::before,

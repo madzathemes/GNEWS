@@ -52,7 +52,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover,
 .poster-carousel-trending .poster-prev:hover,
 .poster-carousel-trending .poster-next:hover,
 .mt-review a:hover {
-  background: #ff6c00;
+  background: #0271dd;
   color: #fff
 }
 .mt-theme-text,
@@ -1007,6 +1007,7 @@ div.sf-menu ul ul li {
   margin-left:0px;
   margin-right:0px;
 }
+
 .sf-menu li {
 	white-space: nowrap; /* no need for Supersubs plugin */
 	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
@@ -1069,7 +1070,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 .sf-menu > li.current_page_item > a,
 .sf-menu > li.current_page_parent > a,
 .sf-menu > li > a:hover {
-  color: #0366d6!important;
+  color: #0271dd!important;
 }
 
 .sf-menu > li.current_page_item > a::before,

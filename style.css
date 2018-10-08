@@ -2572,7 +2572,7 @@ opacity: 0.7
   overflow: hidden;
   position: relative;
   background: rgb(64, 66, 76);
-  border-radius: 4px;
+  border-radius: 0px;
 }
 .grid-post {
   width: 49.6%;

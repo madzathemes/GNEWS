@@ -2597,7 +2597,8 @@ opacity: 0.7
   opacity:1;
 }
 .grid-post:hover .poster-cat span {
-  background:#ff6c00
+  background:#0271dd;
+  color: white!important
 }
 .grid-post.style-3 {
   width: 32.867%;;
@@ -5634,7 +5635,7 @@ li.mtc-buy {
 }
 .mt-slide-1-title:hover .mt-slide-1-cat {
   background: #0271dd;
-  color: white;
+  color: white!important;
 }
 
 /* mt Head */

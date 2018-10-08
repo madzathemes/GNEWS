@@ -1639,7 +1639,7 @@ h2.heading {
   transform-origin: top left;
   float: left;
   position: absolute;
-  left: -23px;
+  left: 0px;
   top: 21px;
   padding-bottom: 0px;
 }

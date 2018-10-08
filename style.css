@@ -1811,19 +1811,19 @@ h2.heading .rsswidget {
     opacity: 1;
 }
 .poster .number {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   color: #fff;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 900;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 2px;
   position: absolute;
   z-index: 2;
   left: 50%;
-  margin-left: -10px;
+  margin-left: -9px;
   top: -10px;
-  border-radius: 0%;
+  border-radius: 100%;
 }
 .poster-image::after {
   content: '';

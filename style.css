@@ -52,7 +52,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover,
 .poster-carousel-trending .poster-prev:hover,
 .poster-carousel-trending .poster-next:hover,
 .mt-review a:hover {
-  background: #ff6c00;
+  background: #0070e0;
   color: #fff
 }
 .mt-theme-text,
@@ -1882,9 +1882,9 @@ h2.heading .rsswidget {
   padding-left: 0px;
 }
 .poster-carousel-trending {
-  border: 1px dashed #b9b9b9;
-  padding: 20px 20px 0px;
-  margin-bottom: 30px;
+  padding: 20px 20px 20px;
+  margin-bottom: 20px;
+  background: #f5f5f5;
 }
 .poster-carousel-trending h2 {
   font-size: 16px !important;

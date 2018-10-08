@@ -762,6 +762,7 @@ table {
 .header-wrap {
   z-index: 9999;
   position: fixed;
+  border-top: 3px solid black;
 }
 .header-mt-container-wrap {
   background: #222;

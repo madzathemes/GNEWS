@@ -1935,8 +1935,8 @@ h2.heading .rsswidget {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: bold;
-  background: #0070e0;
-  color: #fff;
+  background: #fff;
+  color: #111;
   padding: 3px 6px;
   border-radius: 0px;
 }
@@ -5471,9 +5471,9 @@ li.mtc-buy {
   font-size: 48px;
 }
 .mt-slide-1-cat {
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 11px;
+  color: #111;
+  background: #fff;
+  font-size: 10px;
   text-transform: uppercase;
   display: inline-block;
   font-weight: 700;

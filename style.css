@@ -1030,8 +1030,8 @@ ul.sf-menu ul li .mt-menu-cursor, div.sf-menu ul ul li .mt-menu-cursor {
 }
 ul.sf-menu ul li a, div.sf-menu ul ul li a {
   padding: 11px 15px;
-  background: rgba(0, 0, 0, 0.92);
-  border: 1px solid #000000;
+  background: #fff;
+  border: 1px solid #f5f5f5;
   width: 100%;
   margin: -1px 0px 0px;
   text-transform: capitalize;

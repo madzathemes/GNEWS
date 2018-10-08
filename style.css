@@ -1623,15 +1623,18 @@ h2.heading {
   font-size: 12px!important;
   padding-top: 0px;
 }
-h2.heading.heading-left {
+.title-modern {
+  position: relative;
+}
+.title-modern h2.heading.heading-left {
   -webkit-transform: rotate(-90deg);
--moz-transform: rotate(-90deg);
--ms-transform: rotate(-90deg);
--o-transform: rotate(-90deg);
-float: left;
-position: absolute;
-left: -23px;
-top: 21px;
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  float: left;
+  position: absolute;
+  left: -23px;
+  top: 21px;
 }
 
 h2.heading.heading-left {

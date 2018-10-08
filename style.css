@@ -1540,8 +1540,8 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   font-family: "madza";
   position: absolute;
   margin-top: 16px;
-  font-size: 16px;
-  color: #717171;
+  font-size: 14px;
+  color: #222;
   right: 0px;
 }
 .nav-search-input:before {

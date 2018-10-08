@@ -1283,10 +1283,10 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   vertical-align: middle;
 }
 .top-nav a {
-  color: #333!important;
+  color: #222!important;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 15px;
 }
 .top-nav .nav {
   text-align: right;

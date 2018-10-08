@@ -354,6 +354,8 @@ function xnews_header_script() {
 		wp_enqueue_script('jquery-respondmin', get_template_directory_uri() . '/inc/js/respond.js', array('jquery'), '1.0', true);
 		wp_script_add_data( 'jquery-respondmin', 'conditional', 'lt IE 9' );
 
+		$p = get_theme_mod( 'mt_typogrpahys', 'on');
+		if( $p != "off"){
 		if (!function_exists('xnews_fonts_url')) {
 
 		    function xnews_fonts_url() {
@@ -371,6 +373,7 @@ function xnews_header_script() {
 		    }
 		    wp_enqueue_style( 'xnews-fonts', xnews_fonts_url(), array(), '1.0.0' );
 		}
+	}
 
 }
 add_action('wp_enqueue_scripts', 'xnews_header_script');

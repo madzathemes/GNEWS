@@ -1041,6 +1041,7 @@ ul.sf-menu ul, div.sf-menu ul ul {
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
   box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+  border-radius: 4px;
 }
 ul.sf-menu ul ul, div.sf-menu ul ul ul {
   margin-left: 0px;

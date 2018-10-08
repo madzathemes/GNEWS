@@ -354,8 +354,8 @@ function xnews_header_script() {
 		wp_enqueue_script('jquery-respondmin', get_template_directory_uri() . '/inc/js/respond.js', array('jquery'), '1.0', true);
 		wp_script_add_data( 'jquery-respondmin', 'conditional', 'lt IE 9' );
 
-		$p = get_theme_mod( 'mt_typogrpahys', 'on');
-		if( $p != "off"){
+		$p = get_theme_mod( 'mt_typogrpahys', '1');
+		if( $p != "2"){
 		if (!function_exists('xnews_fonts_url')) {
 
 		    function xnews_fonts_url() {

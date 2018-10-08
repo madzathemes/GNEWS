@@ -1641,6 +1641,7 @@ h2.heading {
   position: absolute;
   left: -23px;
   top: 21px;
+  padding-bottom: 0px;
 }
 
 h2.heading.heading-left {

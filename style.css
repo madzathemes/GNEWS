@@ -1915,7 +1915,7 @@ h2.heading .rsswidget {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 .poster-info {
   position: absolute;

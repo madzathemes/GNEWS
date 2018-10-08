@@ -1039,11 +1039,8 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
--moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
-}
-
-
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
 }
 ul.sf-menu ul ul, div.sf-menu ul ul ul {
   margin-left: 0px;

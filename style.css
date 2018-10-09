@@ -1042,7 +1042,14 @@ ul.sf-menu ul li:last-child a, div.sf-menu ul ul li:last-child a {
 ul.sf-menu ul::before, div.sf-menu ul ul::before {
     content: "\e905";
     font-family: madza;
-    margin-right: -8px;
+    position: absolute;
+    display: block;
+    top: -20px;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: white;
+    font-size: 21px;
 }
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;

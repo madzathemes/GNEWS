@@ -941,7 +941,7 @@ ul.sf-menu > li > ul > li:hover > ul, div.sf-menu > ul > li > ul > li:hover > ul
 
 .df-is-megamenu ul li {
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border: 0px solid #eeeeee;
   margin-right: 0px;
 }
 .df-is-megamenu ul a {

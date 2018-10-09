@@ -43,6 +43,7 @@
             <?php if ( shortcode_exists( 'posts_trending' ) ) { ?><a class="lightbox" href="<?php echo get_the_post_thumbnail_url(get_the_ID(),"large"); ?>"><?php } ?>
               <?php $copyright = get_post_meta(get_the_ID(), "magazin_img_copyright", true); if(!empty($copyright)){ ?><span class="mt-img-copyright"><?php echo esc_attr($copyright); ?></span><?php } ?>
               <?php echo get_the_post_thumbnail(get_the_ID(),"xnews_810", array( 'class' => 'mt-radius')); ?>
+              <div class="mt-post-image-background" style="background-image:url('<?php echo get_the_post_thumbnail_url(get_the_ID(),"magazin_1300"));?>')">
             <?php if ( shortcode_exists( 'posts_trending' ) ) { ?></a><?php } ?>
           </div>
 			</div>

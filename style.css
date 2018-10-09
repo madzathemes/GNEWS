@@ -5538,24 +5538,6 @@ li.mtc-buy {
   -o-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
-.mt-slide-1 .mt-post-image-background {
-    background-size: cover;
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-.mt-slide-1:hover .mt-post-image-background {
-  -webkit-filter: blur(30px);
-  -moz-filter: blur(30px);
-  -o-filter: blur(30px);
-  -ms-filter: blur(30px);
-  filter: blur(30px);
-}
 .mt-cool-slider {
   margin: 0 auto;
 }

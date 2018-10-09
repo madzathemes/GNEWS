@@ -3506,9 +3506,9 @@ opacity: 0.7
 }
 .mt-img-copyright {
   position: absolute;
-  color: white;
-  bottom: 30px;
-  right: 10px;
+  color: #ffffffb3;
+  bottom: 20px;
+  right: 30px;
   display: block;
   font-size: 11px;
   font-weight: 700;

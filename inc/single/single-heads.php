@@ -93,5 +93,4 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
     <span><?php echo esc_attr($t_p_share); ?></span>
     <?php if(function_exists("mt_share_top")) { mt_share_top(); } ?>
   </div>
-
 <?php } ?>

@@ -1970,7 +1970,8 @@ h2.heading .rsswidget {
   padding: 3px 6px 3px 16px;
   border-radius: 0px;
 }
-.grid-wrap .poster-cat span {
+.grid-wrap .poster-cat span,
+.mega-post-in .poster-cat span {
   padding: 3px 6px 3px 6px;
 }
 .poster-data {

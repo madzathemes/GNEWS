@@ -2274,7 +2274,7 @@ h2.heading .rsswidget {
   height: 100%;
   position: relative;
 }
-.mt-post-image-background .single-blure {
+.mt-post-image-background.single-blure {
   position: absolute;
   z-index: 1
 }

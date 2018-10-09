@@ -2983,7 +2983,7 @@ opacity: 0.7
 .after-title {
   padding-top: 10px;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .single-subtitle {
   font-size: 21px;

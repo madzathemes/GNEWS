@@ -1310,7 +1310,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   list-style: none;
   float: right;
   margin:0px;
-  margin-right: 10px;
+  margin-right: -10px;
 }
 .top-nav .social li {
   display: inline-block;
@@ -1954,7 +1954,7 @@ h2.heading .rsswidget {
 }
 .poster-info .poster-cat {
   position: absolute;
-  bottom: 10px;
+  bottom: 18px;
   left: 0px;
 }
 .poster-cat {
@@ -1978,7 +1978,7 @@ h2.heading .rsswidget {
   font-size: 12px;
   color: white;
   position: absolute;
-  bottom: -15px;
+  bottom: -12px;
   left: 15px;
 }
 .poster-image:hover .poster-cat,

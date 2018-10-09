@@ -1969,6 +1969,9 @@ h2.heading .rsswidget {
   padding: 3px 6px 3px 16px;
   border-radius: 0px;
 }
+.grid-wrap .poster-cat span {
+  padding: 3px 6px 3px 6px;
+}
 .poster-data {
   padding: 0;
   font-size: 13px;

@@ -1039,7 +1039,7 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 ul.sf-menu ul li:last-child a, div.sf-menu ul ul li:last-child a {
   border-bottom: 0px solid silver;
 }
-ul.sf-menu > .dropdown > a::after, div.sf-menu > ul > .dropdown > a::after {
+ul.sf-menu > a::after, div.sf-menu > ul > a::after {
     content: "\e905";
     font-family: madza;
     position: absolute;

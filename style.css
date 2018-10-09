@@ -2064,7 +2064,7 @@ h2.heading .rsswidget {
   padding: 0px 7px 0px 13px;
 }
 .poster-views:before {
-  content: "\64";
+  content: "\e9ce";
   font-family: "madza";
   position: absolute;
   margin-top: 2px;

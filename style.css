@@ -1039,6 +1039,11 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 ul.sf-menu ul li:last-child a, div.sf-menu ul ul li:last-child a {
   border-bottom: 0px solid silver;
 }
+ul.sf-menu ul::before, div.sf-menu ul ul::before {
+    content: "\e905";
+    font-family: madza;
+    margin-right: -8px;
+}
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;
   background: #fff;

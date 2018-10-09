@@ -89,8 +89,8 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
 <?php } ?>
 <?php function xnews_single_share() { ?>
   <div class="mt-single-share-btn">
-    <?php if ( false != get_theme_mod( 't_p_share', false ) ) { $t_p_share = esc_html__("Share", "xnews");  } else { $t_p_share = get_theme_mod( 't_p_share' ); } ?>
-    <span><?php echo esc_attr($t_p_share); ?></span>
+    <?php if ( false == get_theme_mod( 't_p_share', false ) ) { $t_p_share = esc_html__("Share", "xnews");  } else { $t_p_share = get_theme_mod( 't_p_share' ); } ?>
+    <span class="share-txt"><?php echo esc_attr($t_p_share); ?></span>
     <?php if(function_exists("mt_share_top")) { mt_share_top(); } ?>
   </div>
 <?php } ?>

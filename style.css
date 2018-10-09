@@ -1038,20 +1038,6 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 ul.sf-menu ul li:last-child a, div.sf-menu ul ul li:last-child a {
   border-bottom: 0px solid silver;
 }
-ul.sf-menu > li:hover::after, div.sf-menu > ul > li:hover::after {
-    content: "\e905";
-    font-family: madza;
-    position: absolute;
-    display: block;
-    top: 50px;
-    -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    color: red;
-    font-size: 50px;
-    left: 50%;
-    margin-left: -25px;
-}
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;
   background: #fff;

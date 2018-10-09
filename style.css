@@ -2950,25 +2950,18 @@ opacity: 0.7
   padding-right: 2px;
 }
 .single-cat-wrap .post-categories li a {
-  text-transform: uppercase;
-  font-size: 11px;
-  display: inline-block;
-  padding: 2px 10px;
-  font-weight: 700;
-  background: none;
-  margin:  0 5px 0 5px;
-  color: black;
-  position: relative;
-}
-.single-cat-wrap .post-categories li a:before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background: #0070E0;
-  position: absolute;
-  left: -6px;
-  top: 4px;
-  border-radius: 0%;
+	text-transform: uppercase;
+	font-size: 13px;
+	display: inline-block;
+	padding: 3px 10px;
+	font-weight: 400;
+	background: none;
+	margin: 0 5px 0 0px;
+	color: black;
+	position: relative;
+	background: #f5f5f5;
+	border-radius: 10px;
+	letter-spacing: 1px;
 }
 .col-col-1 .single-cat-wrap .post-categories {
   margin-bottom: 20px;

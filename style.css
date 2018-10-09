@@ -1036,6 +1036,9 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
   margin: -1px 0px 0px;
   text-transform: capitalize;
 }
+ul.sf-menu ul li:last-child a, div.sf-menu ul ul li:last-child a {
+  border-bottom: 0px solid silver;
+}
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;
   background: #fff;

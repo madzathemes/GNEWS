@@ -49,7 +49,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
   <div class="after-title">
     <div class="pull-left">
       <div class="author-img pull-left">
-        <?php global $post; echo get_avatar( $post->post_author, 26 ); ?>
+        <?php global $post; echo get_avatar( $post->post_author, 15 ); ?>
       </div>
       <div class="author-info">
         <strong><?php the_author_posts_link(); ?></strong>

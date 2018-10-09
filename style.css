@@ -1008,7 +1008,6 @@ div.sf-menu ul ul li {
   margin-left:0px;
   margin-right:0px;
 }
-
 .sf-menu li {
 	white-space: nowrap; /* no need for Supersubs plugin */
 	*white-space: normal; /* ...unless you support IE7 (let it wrap) */

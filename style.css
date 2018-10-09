@@ -1954,7 +1954,7 @@ h2.heading .rsswidget {
 .poster-info .poster-cat {
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  left: 0px;
 }
 .poster-cat {
   background: none!important;
@@ -1966,7 +1966,7 @@ h2.heading .rsswidget {
   font-weight: bold;
   background: #fff;
   color: #111;
-  padding: 3px 6px;
+  padding: 3px 6px 3px 16px;
   border-radius: 0px;
 }
 .poster-data {

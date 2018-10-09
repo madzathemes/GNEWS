@@ -1844,7 +1844,8 @@ h2.heading .rsswidget {
 }
 .poster-image:hover .poster-cat span,
 .poster.large:hover .poster-large-cat span {
-  background: #ff6c00;
+  background: #0070e0;
+  color: white;
 }
 .poster.trending-normal .poster-image {
   width: 100%;

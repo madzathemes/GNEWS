@@ -5649,6 +5649,8 @@ li.mtc-buy {
 
 .mt-cool-slider .mt-post-image-background {
   height: 370px;
+}
+.grid-wrap.nr5 .mt-post-image-background {
   display: none;
 }
 .mt-cool-slider-carousel-back .slick-list {

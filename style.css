@@ -1031,7 +1031,6 @@ ul.sf-menu ul li .mt-menu-cursor, div.sf-menu ul ul li .mt-menu-cursor {
 }
 ul.sf-menu ul li a, div.sf-menu ul ul li a {
   padding: 11px 15px;
-  background: #fff;
   border: 1px solid #f5f5f5;
   width: 100%;
   margin: -1px 0px 0px;
@@ -1039,10 +1038,11 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 }
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;
+  background: #fff;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
   box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
-  border-radius: 4px;
+  border-radius: 10px;
 }
 ul.sf-menu ul ul, div.sf-menu ul ul ul {
   margin-left: 0px;

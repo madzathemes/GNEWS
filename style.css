@@ -1858,7 +1858,7 @@ h2.heading .rsswidget {
 .poster-content-wrap strong,
 .poster-content small,
 .poster-content strong {
-  font-weight: 700!important;
+  font-weight: 400!important;
   font-size: 11px;
   color: #222;
 }

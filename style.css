@@ -1589,7 +1589,8 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   border-width: 0px;
   background: none;
   height: 100%;
-  padding: 30px
+  padding: 30px;
+  font-weight: 300;
 }
 .nav-search-input input::-webkit-input-placeholder {
    color: #222;

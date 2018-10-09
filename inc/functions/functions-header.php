@@ -76,9 +76,7 @@ else if(!empty($option['menu_background_width'])) {
 
 
 						<div class="mt-head-right">
-						<div class="pull-left mt-top-social">
-							<?php xnews_socials(); ?>
-						</div>
+
 						<?php if ( true == get_theme_mod( 'mt_menu_search', false ) ) { ?>
 							<div class="nav-search-wrap  mt-radius">
 								<div class="nav-search pointer"></div>
@@ -90,7 +88,9 @@ else if(!empty($option['menu_background_width'])) {
 							</div>
 							<div class="search-close"></div>
 						<?php } ?>
-
+						<div class="pull-right mt-top-social">
+							<?php xnews_socials(); ?>
+						</div>
 						</div>
 					</div>
 				</div>

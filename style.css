@@ -2812,7 +2812,7 @@ opacity: 0.7
   overflow: hidden;
 }
 .single-content p {
-    color: #1b1c2a;
+    color: rgba(0,0,0,.74);;
 }
 .mt-fl-on .mt-first-letter {
   font-size: 68px;

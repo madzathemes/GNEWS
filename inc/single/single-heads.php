@@ -89,7 +89,7 @@ $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()));
 <?php } ?>
 <?php function xnews_single_share() { ?>
   <div class="mt-single-share-btn">
-    <span><?php if ( false == get_theme_mod( 't_p_share', false ) ) { $t_p_shares = esc_html__("Share", "xnews");  } else { $t_p_shares = get_theme_mod( 't_p_share' ); } ?></span>
+    <span><?php if ( false == get_theme_mod( 't_p_share', false ) ) { echo esc_html__("Share", "xnews");  } else { echo get_theme_mod( 't_p_share' ); } ?></span>
     <?php if(function_exists("mt_share_top")) { mt_share_top(); } ?>
   </div>
 

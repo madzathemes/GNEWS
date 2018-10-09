@@ -18,7 +18,7 @@
           } else if ( true == get_theme_mod( 'mt_post_title_score', true ) ) {
             echo mt_review_title();
           }
-  } ?>
+  } ?><div><?php xnews_single_count(); ?></div>
 <?php } ?>
 <?php function xnews_single_count() {
 $share_top = "";

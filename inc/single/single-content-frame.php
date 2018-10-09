@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-1 mt-signle-share-sidebar"><?php xnews_single_share(); ?></div>
         <div class="col-md-11">
-          <div><?php xnews_single_count(); ?></div>
+          <div><?php #xnews_single_count(); ?></div>
           <?php $optionz = get_option("magazin_theme_options");
           if (!empty($optionz['article_ad_top'])) {  ?>
             <div class="advertise">

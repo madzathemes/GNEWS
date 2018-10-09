@@ -3115,7 +3115,7 @@ opacity: 0.7
 }
 .share li.share-more a .share-more-icon,
 .share-more-wrap .share-more-icon{
-  background: #ecedf1;
+  background: #f5f5f5;
   padding: 12px 16px 13px;
   font-size: 21px;
 }
@@ -3126,7 +3126,8 @@ opacity: 0.7
 }
 .share-more .pinterest:before  {
   content: "\70";
-  background: #c8232c;
+  background: #f5f5f5;
+  color:#c8232c;
   font-family: "madza";
   padding: 15px 16px 13px;
   margin-left: 0px;
@@ -3134,7 +3135,8 @@ opacity: 0.7
 }
 .share-more .google:before {
   content: "\72";
-  background: #d34836;
+  background: #f5f5f5;
+  color: #d34836;
   font-family: "madza";
   padding: 15px 16px 13px;
 

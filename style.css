@@ -2274,6 +2274,14 @@ h2.heading .rsswidget {
   height: 100%;
   position: relative;
 }
+.mt-post-image-background .single-blure {
+  position: absolute;
+  z-index: 1
+}
+.single .post-img img {
+  position: relative;
+  z-index: 2
+}
 .zoom-on .mt-post-image {
   left: -20px;
   right: -20px;

@@ -1039,17 +1039,18 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 ul.sf-menu ul li:last-child a, div.sf-menu ul ul li:last-child a {
   border-bottom: 0px solid silver;
 }
-ul.sf-menu a::after, div.sf-menu ul a::after {
+ul.sf-menu > .dropdown > a::after, div.sf-menu > ul > .dropdown > a::after {
     content: "\e905";
     font-family: madza;
     position: absolute;
     display: block;
-    top: -25px;
+    top: 50px;
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-    color: black;
-    font-size: 50px;
+    color: white;
+    left: 50%;
+    margin-left: -25px;
 }
 ul.sf-menu ul, div.sf-menu ul ul {
   margin-left: -15px;

@@ -2269,7 +2269,7 @@ h2.heading .rsswidget {
   -moz-filter: blur(25px);
   -o-filter: blur(25px);
   -ms-filter: blur(25px);
-  filter: blur(3px);
+  filter: blur(25px);
   width: 100%;
   height: 100%;
   position: relative;

@@ -2282,10 +2282,11 @@ h2.heading .rsswidget {
 .single .post-img img {
   position: relative;
   z-index: 2;
-  margin-bottom: 0px;
+  bottom: 0px!important;
+  margin-bottom: 0px!important;
 }
 .single .post-img {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .zoom-on .mt-post-image {
   left: -20px;

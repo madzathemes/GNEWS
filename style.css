@@ -3330,7 +3330,7 @@ opacity: 0.7
 }
 .stat-shares {
   padding: 2px 20px 10px 15px;
-  font-size: 13px;
+  font-size: 12px;
   display: inline-block;
   color: #afafaf;
   font-weight: 400
@@ -3348,7 +3348,7 @@ opacity: 0.7
 }
 .stat-views {
   padding: 2px 10px 10px 10px;
-  font-size: 13px;
+  font-size: 12px;
   display: inline-block;
   color: #afafaf;
   font-weight: 400
@@ -3369,11 +3369,11 @@ opacity: 0.7
   right: 0px;
 }
 .stat-comments {
-  padding: 8px 10px 10px 20px;
-  font-size: 13px;
+  padding: 2px 10px 10px 20px;
+  font-size: 12px;
   display: inline-block;
   color: #afafaf;
-  font-weight: 700
+  font-weight: 400
 }
 .stat-comments:before {
     content: "\e90c";

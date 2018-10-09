@@ -2960,7 +2960,7 @@ opacity: 0.7
   color: #000;
   position: relative;
   background: #f5f5f5;
-  border-radius: 10px;
+  border-radius: 0px;
   letter-spacing: 1px;
 }
 .col-col-1 .single-cat-wrap .post-categories {

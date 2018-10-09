@@ -3060,7 +3060,8 @@ opacity: 0.7
   display: block;
 }
 .share li.share-facebook a{
-  background: #4769a8;
+  background: #f5f5f5;
+  color: #4769a8;
 }
 .fixed-top .share li.share-twitter,
 .fixed-top .share li.share-facebook {
@@ -3076,7 +3077,8 @@ opacity: 0.7
   content: "\77"
 }
 .share li.share-twitter a{
-  background: #63ccf1;
+  background: #f5f5f5;
+  color: #63ccf1;
 }
 .share li.share-twitter a:before{
   font-family: "madza";

@@ -3319,7 +3319,7 @@ opacity: 0.7
 }
 .single .author-info small {
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 400;
   color: #afafaf;
 }
 .stat-shares {
@@ -3327,7 +3327,7 @@ opacity: 0.7
   font-size: 13px;
   display: inline-block;
   color: #afafaf;
-  font-weight: 700
+  font-weight: 400
 }
 .stat-shares:before {
   content: "\67";

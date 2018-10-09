@@ -2277,11 +2277,15 @@ h2.heading .rsswidget {
 .mt-post-image-background.single-blure {
   position: absolute;
   z-index: 1;
-  top: 5px;
+  top: 15px;
 }
 .single .post-img img {
   position: relative;
-  z-index: 2
+  z-index: 2;
+  margin-bottom: 0px;
+}
+.single .post-img {
+  margin-bottom: 40px;
 }
 .zoom-on .mt-post-image {
   left: -20px;

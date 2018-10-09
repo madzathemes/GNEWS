@@ -1039,7 +1039,7 @@ ul.sf-menu ul li a, div.sf-menu ul ul li a {
 ul.sf-menu ul li:last-child a, div.sf-menu ul ul li:last-child a {
   border-bottom: 0px solid silver;
 }
-ul.sf-menu > a::after, div.sf-menu > ul > a::after {
+ul.sf-menu > li::after, div.sf-menu > ul > li::after {
     content: "\e905";
     font-family: madza;
     position: absolute;
@@ -1048,7 +1048,7 @@ ul.sf-menu > a::after, div.sf-menu > ul > a::after {
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-    color: white;
+    color: red;
     left: 50%;
     margin-left: -25px;
 }

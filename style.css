@@ -2061,7 +2061,7 @@ h2.heading .rsswidget {
   margin-left: -15px;
 }
 .poster-views {
-  padding: 0px 7px 0px 13px;
+  padding: 0px 7px 0px 20px;
 }
 .poster-views:before {
   content: "\e9ce";

@@ -5376,15 +5376,16 @@ li.mtc-buy {
   margin: 5px 0px 0px 0px;
 }
 .mt-readmore-url {
-  display: inline-block!important;
-  padding: 10px 20px;
-  font-size: 12px;
-  text-transform: uppercase;
-  background: #40424c;
-  color: white;
-  font-weight: 700;
-  margin-bottom: 0px !important;
-  border-radius: 4px;
+	display: inline-block !important;
+	padding: 5px 0px;
+	font-size: 13px;
+	/* text-transform: uppercase; */
+	/* background: #40424c; */
+	color: black;
+	/* font-weight: 700; */
+	margin-bottom: 0px !important;
+	border-radius: 0px;
+	border-bottom: 1px solid black;
 }
 .mt-readmore-url:hover {
   background: #ebedf3;

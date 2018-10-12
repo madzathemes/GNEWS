@@ -5387,11 +5387,6 @@ li.mtc-buy {
 	border-radius: 0px;
 	border-bottom: 1px solid black;
 }
-.mt-readmore-url:hover {
-  background: #ebedf3;
-  color: black;
-}
-
 .mt-tab .poster-content a,
 .mt-tab .poster-content-wrap a {
   margin-top: 0px!important;

@@ -209,7 +209,7 @@ input,
     -moz-transform: translate3d(0, 0, 0);
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 @font-face {
   font-family: "madza";

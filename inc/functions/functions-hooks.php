@@ -354,27 +354,6 @@ function xnews_header_script() {
 		wp_enqueue_script('jquery-respondmin', get_template_directory_uri() . '/inc/js/respond.js', array('jquery'), '1.0', true);
 		wp_script_add_data( 'jquery-respondmin', 'conditional', 'lt IE 9' );
 
-		$p = get_theme_mod( 'mt_typogrpahys', '1');
-		if( $p != "2"){
-		if (!function_exists('xnews_fonts_url')) {
-
-		    function xnews_fonts_url() {
-
-		      $theme_font = "Lato:400,900,700";
-
-		        /*
-		        Translators: If there are characters in your language that are not supported
-		        by chosen font(s), translate this to 'off'. Do not translate into your own language.
-		         */
-		        if ( 'off' !== _x( 'on', 'Google font: on or off', 'xnews' ) ) {
-		            $font_url = add_query_arg( 'family', urlencode( ''. esc_attr($theme_font) .'' ), "//fonts.googleapis.com/css" );
-		        }
-		        return $font_url;
-		    }
-		    wp_enqueue_style( 'xnews-fonts', xnews_fonts_url(), array(), '1.0.0' );
-		}
-	}
-
 }
 add_action('wp_enqueue_scripts', 'xnews_header_script');
 

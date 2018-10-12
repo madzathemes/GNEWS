@@ -2139,7 +2139,7 @@ h2.heading .rsswidget {
 .poster-content a,
 .poster-content-wrap a {
   display: block;
-  margin: 10px 0px;
+  margin: 0px 0px;
 }
 .poster-content a h2,
 .poster-content-wrap a h2 {

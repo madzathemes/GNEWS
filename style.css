@@ -1955,10 +1955,11 @@ h2.heading .rsswidget {
 .poster-info .poster-cat {
   position: absolute;
   bottom: 18px;
-  left: 0px;
+  left: 30px;
 }
 .poster-cat {
   background: none!important;
+  margin-left: -30px;
 }
 .poster-cat span {
   display: inline-block;
@@ -1972,7 +1973,7 @@ h2.heading .rsswidget {
 }
 .grid-wrap .poster-cat span,
 .mega-post-in .poster-cat span {
-  padding: 3px 6px 3px 6px;
+  padding: 3px 6px 3px 32px;
 }
 .poster-data {
   padding: 0;

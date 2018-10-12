@@ -1803,7 +1803,7 @@ h2.heading .rsswidget {
   margin-bottom: 20px;
 }
 .lazy-hidden {
-    opacity: 1;
+    opacity: 0;
 }
 .lazy-loaded {
     -webkit-transition: opacity 0.3s;

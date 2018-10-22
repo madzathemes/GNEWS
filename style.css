@@ -1342,7 +1342,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
 .mt-m-cool-button-line,
 .mt-m-cool-button-line:after,
 .mt-m-cool-button-line:before {
-  background-color: #fff;
+  background-color: #111;
 }
 
 .mt-m-cool-button-line:after {
@@ -1357,7 +1357,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
   position: absolute;
   width: 130%;
   height: 1px;
-  background: #fff;
+  background: #111;
   left: 0;
 }
 .nav-button.active .mt-m-cool-button-line,

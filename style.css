@@ -1372,7 +1372,7 @@ ul.sf-menu ul li a:hover, div.sf-menu ul ul li a:hover {
     top: 48%;
     width: 22px;
     height: 1px;
-    background: #fff;
+    background: #111;
 }
 .hover-menu {
   position: absolute;

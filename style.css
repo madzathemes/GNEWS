@@ -2266,6 +2266,7 @@ h2.heading .rsswidget {
   height: 100%;
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
 .mt-post-image {
   position: absolute;
